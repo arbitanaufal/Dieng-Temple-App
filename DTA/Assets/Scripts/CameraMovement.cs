@@ -19,7 +19,7 @@ public class CameraMovement : MonoBehaviour
         {
             Vector3 direction = previousPosition - cam.ScreenToViewportPoint(Input.mousePosition);
 
-            cam.transform.RotateAround(new Vector3(), new Vector3(0, 1, 0), direction.y * 45);
+            cam.transform.RotateAround(new Vector3(), new Vector3(0, 1, 0), direction.y * 180);
         }
     }
 }

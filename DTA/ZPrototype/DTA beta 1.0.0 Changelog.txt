@@ -1,0 +1,2 @@
+v1.0.0
+- Added camera movement rotate around y axis by *45

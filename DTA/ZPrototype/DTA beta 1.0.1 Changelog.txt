@@ -1,0 +1,2 @@
+v1.0.1 Changelog
+- Change camera movement rotate around y axis by *180
