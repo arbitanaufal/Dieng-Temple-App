@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Holder
+    uniqueID: 4224246395
+    locked: 0
+  - name: TemplePart
+    uniqueID: 2443324363
+    locked: 0
