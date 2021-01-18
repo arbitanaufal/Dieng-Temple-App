@@ -625,6 +625,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctForm: {fileID: 57017364}
   CameraMovement: {fileID: 587642267}
+--- !u!114 &497390933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497390929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d7ca183ee28504f9bca49983e24912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &587642267
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,6 +816,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctForm: {fileID: 180575059}
   CameraMovement: {fileID: 587642267}
+--- !u!114 &602414337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602414333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d7ca183ee28504f9bca49983e24912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1147500807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -938,6 +962,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctForm: {fileID: 1164715274}
   CameraMovement: {fileID: 587642267}
+--- !u!114 &1147500813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147500809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d7ca183ee28504f9bca49983e24912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1164715272
 PrefabInstance:
   m_ObjectHideFlags: 0
