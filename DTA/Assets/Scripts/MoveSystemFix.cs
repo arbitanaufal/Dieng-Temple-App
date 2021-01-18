@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveSystemFix : MonoBehaviour
 {
+    public GameObject correctForm;
+    private bool moving;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,15 @@ public class MoveSystemFix : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+
+    }
+
+    private void OnMouseUp()
+    {
+
     }
 }
