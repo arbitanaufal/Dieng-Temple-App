@@ -1,2 +1,0 @@
-v1.0.2 Changelog
-- Fixed camera movement script, more stable

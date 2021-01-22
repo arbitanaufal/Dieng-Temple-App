@@ -1,4 +1,0 @@
-v1.1.0 Changelog
-- Added Drag fuction
-- Added Drop Fuction
-- Added Fixed Drop location
