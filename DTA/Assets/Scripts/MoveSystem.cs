@@ -6,8 +6,8 @@ public class MoveSystem : MonoBehaviour
 {
     public GameObject correctForm;
     public GameObject CameraMovement;
+    public GameObject TemplePart;
     private bool moving;
-    private bool finish;
 
     private float startPosX;
     private float startPosY;
@@ -21,16 +21,13 @@ public class MoveSystem : MonoBehaviour
     }
     void Update()
     {
-        if (finish == false)
+        if (moving)
         {
-            if (moving)
-            {
-                Vector3 mousePos;
-                mousePos = Input.mousePosition;
-                mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+            Vector3 mousePos;
+            mousePos = Input.mousePosition;
+            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-                this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, mousePos.z - startPosZ);
-            }
+            this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, mousePos.z - startPosZ);
         }
     }
 
@@ -61,7 +58,7 @@ public class MoveSystem : MonoBehaviour
             Mathf.Abs(this.transform.localPosition.z - correctForm.transform.localPosition.z) <= 10.0f)
         {
             this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
-            finish = true;
+            TemplePart.gameObject.GetComponent<Collider>().enabled = false;
         }
         else
         {
