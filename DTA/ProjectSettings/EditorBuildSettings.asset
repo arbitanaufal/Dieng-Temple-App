@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/CobaCandi.unity
+    path: Assets/Scenes/Menu Utama.unity
+    guid: b69bf4a5918bcf64ca0eaa574d9923d6
+  - enabled: 1
+    path: Assets/Scenes/Candi Arjuna.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Candi Semar.unity
+    guid: 52d8ac9e41237ac4c9f31165ab786e30
+  - enabled: 1
+    path: Assets/Scenes/Candi Srikandi.unity
+    guid: 9c259995774da5842844c1aa0e739cb3
+  - enabled: 1
+    path: Assets/Scenes/Candi Puntadewa.unity
+    guid: 60443f5fd5c8d9f438b68ab0daf6e32f
+  - enabled: 1
+    path: Assets/Scenes/Candi Sembadra.unity
+    guid: 3cbebc04c15f1b745be08c7ea6328374
+  - enabled: 1
+    path: Assets/Scenes/Candi Gatotkaca.unity
+    guid: c918141f52070924e8c6be46fa0cd86d
   m_configObjects: {}
