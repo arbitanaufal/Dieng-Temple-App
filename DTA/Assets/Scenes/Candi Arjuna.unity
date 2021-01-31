@@ -531,7 +531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00018578782, y: 0.000031225}
+  m_AnchoredPosition: {x: 0.00018578782, y: -0.0010279407}
   m_SizeDelta: {x: 0, y: 490.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &268674656
@@ -824,7 +824,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1492450562}
           m_TargetAssemblyTypeName: CamScroll, Assembly-CSharp
-          m_MethodName: DisableCam
+          m_MethodName: OnMouseDown
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -839,8 +839,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1492450562}
-          m_TargetAssemblyTypeName: DisableCamScroll, Assembly-CSharp
-          m_MethodName: EnableCam
+          m_TargetAssemblyTypeName: CamScroll, Assembly-CSharp
+          m_MethodName: OnMouseUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

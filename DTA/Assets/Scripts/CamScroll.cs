@@ -18,15 +18,12 @@ public class CamScroll : MonoBehaviour
         
     }
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            CameraMovement.SetActive(false);
-        }
+        CameraMovement.SetActive(false);
     }
 
-    private void OnMouseUp()
+    public void OnMouseUp()
     {
         CameraMovement.SetActive(true);
     }
