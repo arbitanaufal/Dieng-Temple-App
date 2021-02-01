@@ -9,21 +9,24 @@ public class CamScroll : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
-        CameraMovement.SetActive(false);
+        if (Input.GetMouseButtonDown(0))
+        {
+            CameraMovement.SetActive(false);
+        }
     }
 
-    public void OnMouseUp()
+    private void OnMouseUp()
     {
         CameraMovement.SetActive(true);
     }
