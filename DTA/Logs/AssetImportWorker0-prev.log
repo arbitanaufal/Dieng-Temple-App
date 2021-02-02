@@ -15,11 +15,11 @@ C:/Users/notar/Documents/git/Dieng-Temple-App/DTA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63351
+63490
 Successfully changed project path to: C:/Users/notar/Documents/git/Dieng-Temple-App/DTA
 C:/Users/notar/Documents/git/Dieng-Temple-App/DTA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,393 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002268 seconds.
+Registered in 0.002176 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.282 seconds
+- Completed reload, in  1.261 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000769 seconds.
+Registered in 0.000854 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.868 seconds
+- Completed reload, in  0.856 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1102 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.4 MB.
 System memory in use after: 68.5 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1561.
-Total: 1.976800 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.144600 ms MarkObjects: 1.567200 ms  DeleteObjects: 0.102600 ms)
+Total: 2.126900 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.203800 ms MarkObjects: 1.668500 ms  DeleteObjects: 0.095900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Candi Arjuna.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Candi Arjuna.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2763425c54bee118eb1edc5d147f6d0a') in 0.082590 seconds
-  Import took 0.098870 seconds .
+  path: Assets/3D Assets/ArjunaBase.obj
+  artifactKey: Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaBase.obj using Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf1ecf6fe0269a1b51d059605a8a280') in 0.575691 seconds
+  Import took 0.591685 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 57.895176 seconds.
+  path: Assets/3D Assets/ArjunaMid 1.obj
+  artifactKey: Guid(ecac2ac0b2c5cb345849588995c81648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid 1.obj using Guid(ecac2ac0b2c5cb345849588995c81648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0134febdf47473b5ddfa15d330ee944c') in 0.043611 seconds
+  Import took 0.047348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3D Assets/ArjunaTop1.obj
+  artifactKey: Guid(4b199b89eaa3f664c93a60e057e897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop1.obj using Guid(4b199b89eaa3f664c93a60e057e897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6549396c508f24000e89f09e98b6e4f9') in 0.035567 seconds
+  Import took 0.038282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/3D Assets/ArjunaTop2.obj
+  artifactKey: Guid(50fb26247337ebe42afbc06eb590fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop2.obj using Guid(50fb26247337ebe42afbc06eb590fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d93774de635552963a58971761b4d26') in 0.074028 seconds
+  Import took 0.076327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/3D Assets/ArjunaTop4.obj
+  artifactKey: Guid(979d3bf518beb9241a183379c525d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop4.obj using Guid(979d3bf518beb9241a183379c525d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872b110c9131e29719930e32d0e6296e') in 0.034173 seconds
+  Import took 0.036144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf99c3b59b78fa2e73446485f1134436') in 0.035271 seconds
+  Import took 0.037527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/3D Assets/ArjunaTop3.obj
+  artifactKey: Guid(5fac90eafa942a44b949e1c90c25556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop3.obj using Guid(5fac90eafa942a44b949e1c90c25556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bfd6906b0bdbdb82c7fc9cdb93cbf7') in 0.038303 seconds
+  Import took 0.040708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.760192 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057d9a6d6ba848c578164b75251e854a') in 0.031872 seconds
+  Import took 0.043200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.160754 seconds.
+  path: Assets/3D Assets/ArjunaBase.obj
+  artifactKey: Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaBase.obj using Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b3ce1179f66a922ca1cd4c0a21baaa') in 0.082514 seconds
+  Import took 0.099346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/3D Assets/ArjunaTop1.obj
+  artifactKey: Guid(4b199b89eaa3f664c93a60e057e897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop1.obj using Guid(4b199b89eaa3f664c93a60e057e897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbe8df95ea8247e64dc6dcdcb94a01d') in 0.055155 seconds
+  Import took 0.068278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/3D Assets/ArjunaTop2.obj
+  artifactKey: Guid(50fb26247337ebe42afbc06eb590fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop2.obj using Guid(50fb26247337ebe42afbc06eb590fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92adef8c9f6fef5a6541c5bccf4d4d2') in 0.044543 seconds
+  Import took 0.061044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3D Assets/ArjunaTop4.obj
+  artifactKey: Guid(979d3bf518beb9241a183379c525d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop4.obj using Guid(979d3bf518beb9241a183379c525d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0a82e732913a046299ec8faf5cfb41') in 0.047325 seconds
+  Import took 0.070768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667ea0192e3ea944ed680bab083859db') in 0.045162 seconds
+  Import took 0.048294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3D Assets/ArjunaTop3.obj
+  artifactKey: Guid(5fac90eafa942a44b949e1c90c25556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop3.obj using Guid(5fac90eafa942a44b949e1c90c25556a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef6e26a3d72d0a3345dd70f2edcb44b') in 0.043630 seconds
+  Import took 0.062570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 772.697507 seconds.
+  path: Assets/3D Assets/ArjunaBase.obj
+  artifactKey: Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaBase.obj using Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cd6cf5c2c5a587aa0a9ed9503ba978') in 0.030822 seconds
+  Import took 0.041487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.386787 seconds.
+  path: Assets/3D Assets/ArjunaBase.obj
+  artifactKey: Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaBase.obj using Guid(aa1de321a9079c342b99ec8ba9ac7057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e6413601423333d870c934e9307949') in 0.034760 seconds
+  Import took 0.044838 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000765 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 71.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 2.704800 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.154300 ms MarkObjects: 2.139800 ms  DeleteObjects: 0.083000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 95.096925 seconds.
+  path: Assets/3D Assets/Candi Arjuna.fbx
+  artifactKey: Guid(fae636ab5c446c140b330ed4ff17be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Candi Arjuna.fbx using Guid(fae636ab5c446c140b330ed4ff17be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2599937fe75170d6f8abcafd12ffa13') in 1.237080 seconds
+  Import took 1.260871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.693586 seconds.
+  path: Assets/3D Assets/a.glb
+  artifactKey: Guid(346c015900dbe9f43b63407872cb8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/a.glb using Guid(346c015900dbe9f43b63407872cb8bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efb289cc0b6cdac437aeeddf32de80e') in 0.012993 seconds
+  Import took 0.020148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.274764 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0538c10eb19fea3e8d796e8b77790') in 0.044379 seconds
+  Import took 0.055135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 875.915116 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a947f7f295620045d8c2fe309749cec') in 0.037580 seconds
+  Import took 0.064845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.874657 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3eb702e1028ded3ec2391888f72c992') in 0.035685 seconds
+  Import took 0.038208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.188783 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b741938dab12a1b915eefd04c75ba32') in 0.054269 seconds
+  Import took 0.072956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.296001 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6276c9b4a62ad54ffb7d6d5f540fb7f1') in 0.032865 seconds
+  Import took 0.061623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.964329 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ade50485615c7d6b5b98e7cdaec9340') in 0.031365 seconds
+  Import took 0.055247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.472807 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613612ffb4f0e769a60a219b9f3818ee') in 0.033239 seconds
+  Import took 0.051159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.748397 seconds.
+  path: Assets/3D Assets/Candi Arjuna.fbx
+  artifactKey: Guid(fae636ab5c446c140b330ed4ff17be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Candi Arjuna.fbx using Guid(fae636ab5c446c140b330ed4ff17be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57f7cfe78a67989c949204d3542451f') in 0.034793 seconds
+  Import took 0.038455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.561347 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d30c62b4b48c1486770aa3528996ef') in 0.036095 seconds
+  Import took 0.039282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000802 seconds.
+  path: Assets/3D Assets/ArjunaMid.obj
+  artifactKey: Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaMid.obj using Guid(8a5aca10765223f41bd7ec556869fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d30c62b4b48c1486770aa3528996ef') in 0.034420 seconds
+  Import took 0.036658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.798137 seconds.
+  path: Assets/3D Assets/ArjunaTop1.obj
+  artifactKey: Guid(4b199b89eaa3f664c93a60e057e897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop1.obj using Guid(4b199b89eaa3f664c93a60e057e897ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd32eab23a304136b4f6a1e86c98ce1') in 0.039268 seconds
+  Import took 0.055709 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 72.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 1.667700 ms (FindLiveObjects: 0.132900 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.412000 ms  DeleteObjects: 0.085400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 70.446762 seconds.
+  path: Assets/3D Assets/ArjunaTop2.obj
+  artifactKey: Guid(50fb26247337ebe42afbc06eb590fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop2.obj using Guid(50fb26247337ebe42afbc06eb590fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea342cf043be12ee697672fe7824d7d0') in 0.115237 seconds
+  Import took 0.131357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.006113 seconds.
+  path: Assets/3D Assets/ArjunaTop4.obj
+  artifactKey: Guid(979d3bf518beb9241a183379c525d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/ArjunaTop4.obj using Guid(979d3bf518beb9241a183379c525d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0862808af817f7553cd78fed7fada60') in 0.035486 seconds
+  Import took 0.043326 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.2 MB.
+System memory in use after: 72.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 1.727800 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.450000 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.750143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.759 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 72.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 2.140800 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.776100 ms  DeleteObjects: 0.108200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
