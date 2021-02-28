@@ -4,30 +4,32 @@ using UnityEngine;
 
 public class MoveSystem : MonoBehaviour
 {
-    public GameObject correctForm;
-    public GameObject CameraMovement;
-    public GameObject TemplePart;
-    private bool moving;
+    [SerializeField] private Camera dropPoint;
 
-    private float startPosX;
-    private float startPosY;
-    private float startPosZ;
+    public GameObject correctForm, nextCF, CameraMovement, TemplePart, InvIMG;
+
+    private bool moving, finish;
+
+    private float startPosX, startPosY, startPosZ;
 
     private Vector3 resetPosition;
 
     void Start()
     {
-        resetPosition = this.transform.localPosition;
+        resetPosition = TemplePart.transform.localPosition;
     }
     void Update()
     {
-        if (moving)
+        if (finish == false)
         {
-            Vector3 mousePos;
-            mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+            if (moving)
+            {
+                Vector3 mousePos;
+                mousePos = Input.mousePosition;
+                mousePos = dropPoint.ScreenToWorldPoint(mousePos);
 
-            this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, mousePos.z - startPosZ);
+                TemplePart.gameObject.transform.localPosition = new Vector3(mousePos.x, mousePos.y, mousePos.z);
+            } 
         }
     }
 
@@ -36,13 +38,16 @@ public class MoveSystem : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             CameraMovement.SetActive(false);
+            TemplePart.SetActive(true);
+            InvIMG.SetActive(false);
+
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            startPosX = mousePos.x - this.transform.localPosition.x -2.5f;
-            startPosY = mousePos.y - this.transform.localPosition.y;
-            startPosZ = mousePos.z - this.transform.localPosition.z -2.5f;
+            startPosX = mousePos.x = correctForm.transform.localPosition.x;
+            startPosY = mousePos.y = correctForm.transform.localPosition.y;
+            startPosZ = mousePos.z = correctForm.transform.localPosition.z;
 
             moving = true;
         }
@@ -50,19 +55,26 @@ public class MoveSystem : MonoBehaviour
 
     private void OnMouseUp()
     {
-        moving = false;
         CameraMovement.SetActive(true);
+        TemplePart.SetActive(false);
+        InvIMG.SetActive(true);
+        moving = false;
 
-        if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 10.0f &&
-            Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.6f &&
-            Mathf.Abs(this.transform.localPosition.z - correctForm.transform.localPosition.z) <= 10.0f)
+        if ((correctForm.activeInHierarchy == true) && 
+            Mathf.Abs(TemplePart.transform.localPosition.x - correctForm.transform.localPosition.x) <= 0.25f &&
+            Mathf.Abs(TemplePart.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.25f &&
+            Mathf.Abs(TemplePart.transform.localPosition.z - correctForm.transform.localPosition.z) <= 0.25f)
         {
-            this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
+            TemplePart.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             TemplePart.gameObject.GetComponent<Collider>().enabled = false;
+            finish = true;
+            nextCF.SetActive(true);
+            TemplePart.SetActive(true);
+            InvIMG.SetActive(false);
         }
         else
         {
-            this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+            TemplePart.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
         }
     }
 }
